@@ -1,0 +1,178 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.h1::before {
+    content:url(https://udoba.org/sites/default/files/h5p/content/51594/images/backgroundImage-635f74de31b73.png);
+width:28px;
+  top:15px;
+    left: 10px;
+}
+
+.h1::after {
+    content: url(https://udoba.org/sites/default/files/h5p/content/51594/images/backgroundImage-635f74de31b73.png);
+    width: 28px;
+    top:15px;
+    left: 10px;
+}
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.info:hover {
+   text-align: right;
+   font-weight:bolder;
+   font-style: cursive;
+   background-color: 10px solid #36bbce; 
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.article-but:hover {
+     border: 5px solid yellow;
+     font-family: cursive;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.full-image:hover {
+    border: 5px solid blue;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+aside {
+    position: fixed;
+    left:510px;
+    top:35px;
+color: gold;
+font-size:15px;
+width:83px;
+background-color: green;
+border-radius:12px;
+padding:25px 25px 25px 25px;
+}
+
+.aside-text{
+width:67px;
+border-bottom: 5px solid gold;
+}
+
+
+.aside-insta {
+    width: 78px;
+    border-bottom:5px solid gold;
+}
+
+.poster{
+ position: relative;
+}
+
+.poster img {
+    position:relative;
+    top:30px;
+    right:60px;
+}
+
+.address::before {
+content:url(https://png.pntegtree.com/png-vector/20190227/ourlarge/pngtree-vector-house-icon-png-image_708543.jpg);
+width: 35px;
+}
+
+.tel::before {
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7W5IunWdwgzh9KWz4O_QJJ1qiXx6GTDAh-hjxQJM&s);
+    width:15px;
+    height: 15px;
+}
+span {
+color:red;
+background-color: chartreuse;
+}
